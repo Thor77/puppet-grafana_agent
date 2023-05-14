@@ -4,6 +4,7 @@ class grafana_agent (
   String $package_ensure,
   String $service_name,
   String $service_ensure,
+  String $config_path,
   Hash $config_hash,
 ) {
   include grafana_agent::install
