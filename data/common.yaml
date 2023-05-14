@@ -1,0 +1,7 @@
+---
+grafana_agent::package_name: 'grafana-agent'
+grafana_agent::package_ensure: 'installed'
+grafana_agent::service_name: 'grafana-agent'
+grafana_agent::service_ensure: 'running'
+grafana_agent::config_path: '/etc/grafana-agent.yaml'
+grafana_agent::config_hash: {}
